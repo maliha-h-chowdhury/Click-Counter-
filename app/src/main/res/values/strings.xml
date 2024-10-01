@@ -3,4 +3,10 @@
     <string name="_0" />
     <string name="counter">counter</string>
     <string name="Counter">Counter</string>
+    <string name="count_text">Count: %1$d</string>
+    <string name="switch_sound_text">switch_sound_text</string>
+    <string name="checkbox_reset_text">checkbox_reset_text</string>
+    <string name="radio_weekly_text">radio_weekly_text</string>
+    <string name="default_count_text">default_count_text</string>
+    <string name="radio_daily_text">radio_daily_text</string>
 </resources>

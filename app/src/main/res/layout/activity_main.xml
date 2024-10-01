@@ -34,5 +34,18 @@
         android:textColor="#FFFFFF"
         android:textStyle="bold|italic" />
 
+    <Button
+        android:id="@+id/openFeedBackActivityButton"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#000000"
+        android:text="FeedBack"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic" />
+
+
+
+
 
 </LinearLayout>

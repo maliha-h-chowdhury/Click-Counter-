@@ -1,5 +1,6 @@
 package com.example.clickcounter;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
@@ -10,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Variable to keep track of the count
+
     int counter = 0;
 
     @Override
@@ -18,24 +19,31 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Find views by their ID
+
         TextView counterText = findViewById(R.id.counterText);
         Button incrementButton = findViewById(R.id.incrementButton);
+        Button openFeedBackActivityButton = findViewById(R.id.openFeedBackActivityButton);
 
-        // Set button click listener
+
         incrementButton.setOnClickListener(v -> {
-            // Increment the counter
+
             counter++;
 
-            // Update the TextView with the new counter value
+
             counterText.setText(String.valueOf(counter));
 
-            // Log the button click for debugging
+
             Log.d("MainActivity", "Button clicked");
 
-            // Show a Toast message with the current counter value
-            Toast.makeText(MainActivity.this, "Counter: " + counter, Toast.LENGTH_SHORT).show();  // This should work
+
+            Toast.makeText(MainActivity.this, "Counter: " + counter, Toast.LENGTH_SHORT).show();
         });
 
+
+        openFeedBackActivityButton.setOnClickListener(v -> {
+
+            Intent intent = new Intent(MainActivity.this, FeedBackActivity.class);
+            startActivity(intent);
+        });
     }
 }
