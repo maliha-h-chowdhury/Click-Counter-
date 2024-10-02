@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         Button incrementButton = findViewById(R.id.incrementButton);
         Button openFeedBackActivityButton = findViewById(R.id.openFeedBackActivityButton);
 
+        Button openFormActivityButton = findViewById(R.id.openFormActivityButton);
+
 
         incrementButton.setOnClickListener(v -> {
 
@@ -43,6 +45,12 @@ public class MainActivity extends AppCompatActivity {
         openFeedBackActivityButton.setOnClickListener(v -> {
 
             Intent intent = new Intent(MainActivity.this, FeedBackActivity.class);
+            startActivity(intent);
+        });
+
+        openFormActivityButton.setOnClickListener(v -> {
+
+            Intent intent = new Intent(MainActivity.this, FormActivity.class);
             startActivity(intent);
         });
     }
