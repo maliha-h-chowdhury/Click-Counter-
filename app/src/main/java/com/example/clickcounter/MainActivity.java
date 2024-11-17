@@ -53,5 +53,13 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, FormActivity.class);
             startActivity(intent);
         });
+
+        Button openExpandableListButton = findViewById(R.id.openExpandableListButton);
+
+        openExpandableListButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ExpandableListActivity.class);
+            startActivity(intent);
+        });
+
     }
 }

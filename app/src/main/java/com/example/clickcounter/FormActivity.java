@@ -19,8 +19,6 @@ public class FormActivity extends AppCompatActivity {
         setContentView(R.layout.activity_form);
 
         nameEditText = findViewById(R.id.nameEditText);
-        studentIdEditText = findViewById(R.id.studentIdEditText);
-        courseNameEditText = findViewById(R.id.courseNameEditText);
         emailEditText = findViewById(R.id.emailEditText);
         phoneNumberEditText = findViewById(R.id.phoneNumberEditText);
         passwordEditText = findViewById(R.id.passwordEditText);

@@ -13,10 +13,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Course Enrollment"
+        android:text="Enrollment"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@android:color/holo_blue_dark"
+        android:textColor="@android:color/black"
         android:layout_marginBottom="24dp" />
 
     <EditText
@@ -25,28 +25,6 @@
         android:layout_height="wrap_content"
         android:hint="Enter your full name"
         android:inputType="textPersonName"
-        android:background="@android:drawable/edit_text"
-        android:padding="12dp"
-        android:layout_marginBottom="16dp" />
-
-
-    <EditText
-        android:id="@+id/studentIdEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter your student ID"
-        android:inputType="number"
-        android:background="@android:drawable/edit_text"
-        android:padding="12dp"
-        android:layout_marginBottom="16dp" />
-
-
-    <EditText
-        android:id="@+id/courseNameEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter course name"
-        android:inputType="text"
         android:background="@android:drawable/edit_text"
         android:padding="12dp"
         android:layout_marginBottom="16dp" />
@@ -101,6 +79,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enroll"
-        android:backgroundTint="@android:color/holo_green_light"
+        android:backgroundTint="@android:color/black"
         android:textColor="@android:color/white" />
 </LinearLayout>
