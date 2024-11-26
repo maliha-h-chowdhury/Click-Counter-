@@ -26,7 +26,7 @@
 
     <Button
         android:id="@+id/incrementButton"
-        android:layout_width="228dp"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:backgroundTint="#000000"
@@ -36,7 +36,7 @@
 
     <Button
         android:id="@+id/openFeedBackActivityButton"
-        android:layout_width="228dp"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:backgroundTint="#000000"
@@ -46,7 +46,7 @@
 
     <Button
         android:id="@+id/openFormActivityButton"
-        android:layout_width="228dp"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:backgroundTint="#000000"
@@ -56,12 +56,22 @@
 
     <Button
         android:id="@+id/openExpandableListButton"
-        android:layout_width="match_parent"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
-        android:text="Open ExpandableListView"
         android:layout_marginTop="20dp"
         android:backgroundTint="#000000"
+        android:text="Open ExpandableListView"
         android:textColor="#FFFFFF"
         android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/openRecyclerViewButton"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:text="Open RecyclerView"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic" />
+
 
 </LinearLayout>

@@ -61,5 +61,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        Button openRecyclerViewButton = findViewById(R.id.openRecyclerViewButton);
+        openRecyclerViewButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, RecyclerViewActivity.class);
+            startActivity(intent);
+        });
+
     }
 }
